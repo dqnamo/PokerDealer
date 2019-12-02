@@ -24,8 +24,8 @@ while start == true do
     flop = true
   elsif command == "turn" && flop == false
     turn = Hand.new
-    hand.draw(deck, 4)
-    puts hand
+    turn.draw(deck, 4)
+    puts turn
   elsif command == "turn" && flop == true
     @turn = Hand.new
     @turn.draw(deck, 1)
@@ -34,8 +34,8 @@ while start == true do
     puts deck.count
   elsif command == "river" && flop == false
     river = Hand.new
-    hand.draw(deck, 5)
-    puts hand
+    river .draw(deck, 5)
+    puts river
   elsif command == "river" && flop == true
     @river = Hand.new
     @river.draw(deck, 1)
