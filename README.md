@@ -13,5 +13,7 @@ Download or clone the repository and run `ruby poker.rb` in the project folder.
 
 You can keep dealing turns and rivers on the same flop to see if you make that draw!
 
-## Example
+## ToDo
+- Optimize code.
+- Add features to deal multiple hands.
 
