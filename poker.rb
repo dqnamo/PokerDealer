@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'rubycards'
 include RubyCards
 
@@ -11,7 +13,7 @@ while start == true do
   deck.shuffle!
 
 
-  if command == "hole"
+  if command == "deal"
     deck.shuffle!
     hand = Hand.new
     hand.draw(deck, 2)
